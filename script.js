@@ -75,3 +75,4 @@ function rollDice2(){
     status.innerHTML = player[1].name + " rolled " + dp2 + "." + msg; //print input when button clicked
     p2position.innerHTML = player[1].name + " now is at square " + player[1].pos;
     nextmove.innerHTML = " ";
+}
