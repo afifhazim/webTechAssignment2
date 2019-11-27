@@ -37,7 +37,8 @@ function rollDice1(){
     status.innerHTML = player[0].name + " rolled " + dp1 + "." + msg; //print input when button clicked
     p1position.innerHTML = player[0].name + " now is at square " + player[0].pos;
     nextmove.innerHTML = " ";
-    
+}
+
 function rollDice2(){
   var status = document.getElementById("status");
   var p2position = document.getElementById("p2position");
